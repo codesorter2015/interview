@@ -8,3 +8,4 @@
 * mocha
 * nodemon
 * supertest
+* socket.io
