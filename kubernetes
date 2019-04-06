@@ -1,1 +1,4 @@
-
+minikube
+kubelet
+kubeadm
+kubectl
