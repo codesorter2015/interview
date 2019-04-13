@@ -1,2 +1,11 @@
 * What is non-blocking?
 * What is event-driven I/O paradigm?
+
+Memory Allocation:
+=================
+V8's memory allocation default are repeatively 700 MB and 1400 MB.
+set manually using the --max_old_space_size
+
+Basic command:
+==============
+* node -e "console.log(process.versions.v8)"
