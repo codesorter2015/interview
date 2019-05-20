@@ -1,0 +1,11 @@
+q) What Apache needs to Run Php File?
+a) Apache needs mod_php enabled on your server.
+
+q) How to check install module ?
+cd C:\xampp\apache\bin>
+type httpd -M
+Output: All modules
+
+cd C:\xampp\apache\bin>
+type httpd -M | grep "php7_module"
+Output:  php7_module (shared)
