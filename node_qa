@@ -9,3 +9,58 @@ set manually using the --max_old_space_size
 Basic command:
 ==============
 * node -e "console.log(process.versions.v8)"
+
+Get all the node js running process Information Using CLI:
+=========================================================
+tasklist/FI "IMAGENAME eq node.exe"
+
+REPL
+====
+when called node with arguments, node.js starts a REPL (read-eval-print-loop) also knows as "Node shell".
+
+Default core module:
+===================
+assert
+async
+buffer
+c++addons
+c/c++_addons-N-API
+child_process
+cluster
+console
+crypto
+debugger
+deprecated_apis
+dns
+domain
+dgram
+ECMAScript
+Errors
+Events
+fs
+http
+https
+module
+net
+os
+path
+punycode
+process
+performance
+querystring
+readline
+repl
+report
+stream
+string_decoder
+timers
+tls_ssl
+tracing
+tty
+udp/datagram
+url
+util
+v8
+vm
+worker threads
+zlib  
