@@ -13,5 +13,11 @@ the server should respond with the following json
 
 if you don't provide any credentials or if you provide wrong credentials, the server rejects the access to protected resource and responds with an HTTP Status code of 401
 
+When you provide correct credentials, the server responds with an HTTP Status code of 200
+this is because HTTP Authorization manager adds "Authorization" http header to subsequent HTTP requests 
 
+Base URL: https://httpbin.org/basic-auth/user/passwd.
+User: user.
+Password: passwd.
+Mechanism: BASIC_DIGEST
 
