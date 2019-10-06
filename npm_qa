@@ -2,4 +2,14 @@ npm help search "update"
 npm help update
 npm config set init-author-name "Krish"
 npm config get init-author-name
+npm config delete init-author-name
 npm set init-license "MIT"
+npm list --depth 1
+npm list --depth 0
+npm update lodash --save
+npm update --dev --save--dev
+npm update
+npm update -g
+npm update -g gulp
+npm install npm@latest -g
+npm prune
