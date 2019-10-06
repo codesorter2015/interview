@@ -1,0 +1,5 @@
+npm help search "update"
+npm help update
+npm config set init-author-name "Krish"
+npm config get init-author-name
+npm set init-license "MIT"
