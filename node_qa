@@ -18,6 +18,15 @@ REPL
 ====
 when called node with arguments, node.js starts a REPL (read-eval-print-loop) also knows as "Node shell".
 
+Anonymous Function:
+==================
+A function without a name is called an anonymous function.
+var test = function () { // no function name given i.e. anonymous function    console.log('test'); } test();
+
+First-class functions:
+======================
+first-class functions if a function can be treated the same way as any other variable in the language. 
+
 Default core module:
 ===================
 assert
