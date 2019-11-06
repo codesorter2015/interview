@@ -33,6 +33,12 @@ Functions that take functions as arguments are called higher-order functions.
 A very common example of a higher-order function is setTimeout.
 setTimeout(function () {    console.log('2000 milliseconds have passed since this demo started'); }, 2000);
 
+Revealing module pattern
+========================
+The revealing module pattern is that functions are shared between all the instances and don’t take up memory for each new instance
+Most classes inside core Node.js are written using this pattern.
+
+
 Closures 
 ========
 Whenever we have a function defined inside another function, the inner function has access to the variables declared in the outer function.
@@ -42,6 +48,12 @@ var variableInOuterFunction = arg;
 function innerFunction() { console.log(variableInOuterFunction); // Access a variable from the outer scope }
 innerFunction(); 
 }
+
+IIFE
+====
+An IIFE is an immediately-invoked function expression.
+The best way to avoid exposing your top-level function to the global scope is to wrap everything in an IIFE.
+
  
  
 Default core module:
