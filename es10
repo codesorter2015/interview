@@ -1,0 +1,25 @@
+1) Array.flat
+- It is flattens the array by given depth.
+
+Example :
+const fruits = [["🍋", "🍌"], ["🍎", "🍏"], ["🍐", "🍑"]];
+const flatFruits = friuts.flat(); // Default flat level is 1
+console.log(flatFruits);
+// ["🍋", "🍌", "🍎", "🍏", "🍐", "🍑"];
+
+2) Array.flatMap
+- this method combines flat and map methods and allows you to map through the array of items and then flatten the result in one.
+
+Example:
+const fruits = ["🍋", "🍌", "🍎", "🍏", "🍐", "🍑"];
+const fruitNames = [
+  "Lemon",
+  "Banana",
+  "Red Apple",
+  "Green Apple",
+  "Pear",
+  "Peach"
+];
+
+const mapped = fruits.map((fruit,index) => [fruit,fruitNames[index]]);
+console.log(mapped);
