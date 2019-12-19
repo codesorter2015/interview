@@ -20,6 +20,56 @@ const fruitNames = [
   "Pear",
   "Peach"
 ];
-
+//Ex for mapped
 const mapped = fruits.map((fruit,index) => [fruit,fruitNames[index]]);
 console.log(mapped);
+
+//Ex for mapped and flattened
+const mappedFlattened = fruits.flatMap((fruit,index) => [fruit,fruitNames[index]]);
+console.log(mappedFlattened);
+
+3)trimLeft
+It can trim whitespaces from beginning
+
+Example:
+const untrimmedString = "     Trim me 😢    ";
+console.log(untrimmedString.trimLeft());
+
+4)trimRight
+It can trim whitespaces from end of our string
+
+Example:
+const untrimmedString = "     Trim me 😢    ";
+console.log(untrimmedString.trimRight());
+
+5) Object.fromEntries
+It takes array of entries and create an object from it.
+
+Example:
+const fruitEntries = [
+  ["🍋", "Lemon"],
+  ["🍌", "Banana"],
+  ["🍎", "Red Apple"],
+  ["🍏", "Green Apple"],
+  ["🍐", "Pear"],
+  ["🍑", "Peach"]
+];
+const fruitsObject = Object.fromEntries(fruitEntries);
+console.log(fruitsObject);
+// {
+//   "🍋": "Lemon",
+//   "🍌": "Banana",
+//   "🍎": "Red Apple",
+//   "🍏": "Green Apple",
+//   "🍐": "Pear",
+//   "🍑": "Peach"
+// };
+
+
+
+
+
+
+
+
+
