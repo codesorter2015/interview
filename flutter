@@ -7,3 +7,11 @@ Object-oriented and strongly typed
 Syntax is like a mixture of javascript,c#,java
 Focused on frontend user interface development
 
+command for open a ios simulator (Mac OS)
+open -a Simulator
+-Setting in simulator's Haradware -> Device -> IOS11.3-> iPhone8
+
+If you want to set device scale in Mac OS
+- set the device scale under the Window > Scale menu in the simulator
+- Starting the app - flutter run
+
