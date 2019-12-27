@@ -1,0 +1,25 @@
+*** three ways to interact with aws
+- AWS Management Console
+- Command Line Interface (AWS CLI)
+- Software Developement Kits (SDKs)
+
+AWS CLI
+- It's open source tool for interacting with aws services
+- Environments
+  - Linux
+  - Windows
+  - MacOS
+
+AWS SDKs
+- Javascritp
+- Go
+- Ruby
+- Python
+- .NET
+- IoT
+- Node.js
+- C++
+- PHP
+- Java
+
+  
