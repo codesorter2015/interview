@@ -1,1 +1,5 @@
+Latest Version
+- It was released on May 28,2019.
 
+Interesting New Features & Enhancements :
+- ng build - Which allows developers to quickly build and deploy their Angular apps to popular hosting providers such as Firebase or Github.
